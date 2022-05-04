@@ -8,7 +8,10 @@ let somma = 0;
 //3. Sommo tutti gli elementi in posizione dispari
     //utilizzo un ciclo per scremare i numeri in posizione dispari
     for ( let i = 0; i < list.length; i++){
-        if( list[ i % 2 === 1]){
-            console.log(i);
+        if( i % 2 === 1){
+            somma += list[i];
+            console.log(somma)
         };
     };
+
+    
